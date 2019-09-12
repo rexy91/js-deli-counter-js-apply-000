@@ -15,15 +15,4 @@ function nowServing(array){
   }
 }
 
-function currentLine(array){
-  if (array.length === 0){
-    return "The line is currently empty."
-  }
-  else{
-    var empty_array = []
-    for (var i=0; i<array.length; i++){
-      empty_array.push(` ${i+1}. ${array[i]}`)
-    }
-  }
-  return "The line is currently:" + empty_array
-}
+
