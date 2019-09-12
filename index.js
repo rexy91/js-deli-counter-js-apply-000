@@ -22,8 +22,8 @@ function currentLine(array){
   else{
     var empty_array = []
     for (var i=0; i<array.length; i++){
-      empty_array.push(` `+ [i+1]+`. `  + array[i])
+      empty_array.push(`${i+1} ${array[i]}`)
     }
-    return 'The line is currently:' + empty_array 
   }
+  return "The line is currently:" + empty_array
 }
